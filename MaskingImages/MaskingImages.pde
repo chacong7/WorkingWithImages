@@ -8,5 +8,6 @@ void setup () {
   wu.mask(mask);
 }
  void draw () {
-   image(wu,0,0);
+  background(0);
+   image(wu,mouseX,mouseY);
  }
